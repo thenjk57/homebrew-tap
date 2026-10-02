@@ -1,14 +1,13 @@
 cask "eye-saver" do
-  version "0.1.0"
-  sha256 "9d27cc2aa3e791079a12ef525d37818ff0264055532ab1c6c09f32b60e755cd9"
+  version "0.1.0,1"
+  sha256 "7be732f96317b162e0512b569ebdee132568eb529405274b19e8d60f190840a8"
 
-  url "https://github.com/thenjk57/eye-saver-downloads/releases/download/desktop-v0.1.0-beta.1/EyeSaverDesktop_macos.dmg"
+  url "https://github.com/thenjk57/eye-saver-downloads/releases/download/desktop-v0.1.0-beta.1-notarized/EyeSaverDesktop_macos.dmg"
   name "Eye Saver"
   desc "Break timer to protect eyesight and encourage healthy screen habits"
   homepage "https://eyesaver.webdevnc.com/"
 
-  auto_updates true
-  depends_on macos: :big_sur
+  depends_on macos: :monterey
 
   app "Eye Saver Desktop.app"
 
